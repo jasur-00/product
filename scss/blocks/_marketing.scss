@@ -1,0 +1,384 @@
+.marketing {
+  padding-top: 170px;
+}
+
+.marketing__mini-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mini__box-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mini__box-paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px; 
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.mini__box-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 131px;
+}
+
+.mini__box-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 480px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.marketing__img {
+  width: 539px;
+  height: 473px;
+}
+
+.marketing__second-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 185px;
+  padding-bottom: 150px;
+}
+
+.marketing__second-img {
+  width: 540px;
+  height: 500px;
+}
+
+.marketing__second-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.marketing__second-paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 8px; 
+  color: #22343D;
+}
+
+.marketing__second-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 23px;
+  color: #22343D;
+}
+
+.marketing__second-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 30px;
+  color: #22343D;
+}
+
+.marketing__second-items {
+  display: flex;
+  align-items: center;
+  width: 420px;
+}
+
+.marketing__section-icon {
+  margin-right: 30px;
+}
+
+.marketing__last-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marketing__last-mini-box-list {
+  list-style-type: none;
+}
+
+.marketing__last-box-paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #22343D;
+}
+
+.marketing__last-box-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 23px;
+  color: #22343D;
+}
+
+.marketing__last-box-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 30px;
+  color: #22343D;
+  width: 450px;
+}
+
+.marketing__last-img {
+  width: 541px;
+  height: 451px;
+}
+
+@include breakpoint-down(1085px) {
+  .marketing__mini-box {
+    flex-direction: column-reverse;
+  }
+
+  .mini__box-list {
+    margin-top: 50px;
+  }
+
+  .marketing__second-box {
+    flex-direction: column;
+  }
+
+  .marketing__second-list {
+    margin-top: 50px;
+  }
+
+  .marketing__last-box {
+    flex-direction: column-reverse;
+  }
+}
+
+@include breakpoint-down(600px) {
+  .mini__box-list {
+    padding: 0;
+  }
+
+  .mini__box-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 215px;
+  }
+
+  .mini__box-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+
+  .mini__box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 350px;
+  }
+
+  .marketing__img {
+    width: 350px;
+    height: 320px;
+  }
+
+  .marketing__second-box {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .marketing__second-img {
+    width: 350px;
+    height: 320px;
+  }
+
+  .marketing__second-list {
+    padding: 0;
+  }
+
+  .marketing__second-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 215px;
+  }
+
+  .marketing__second-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+
+  .marketing__second-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 350px;
+  }
+
+  .marketing__section-icon {
+    margin-right: 10px;
+  }
+
+  .marketing__last-mini-box-list {
+    padding: 0;
+  }
+
+  .marketing__last-box-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 215px;
+  }
+
+  .marketing__last-box-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+
+  .marketing__last-box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 350px;
+  }
+
+  .marketing__last-img {
+    width: 350px;
+    height: 320px;
+  }
+} 
+
+@include breakpoint-down(450px) {
+  .mini__box-list {
+    padding: 0;
+  }
+
+  .mini__box-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 215px;
+  }
+
+  .mini__box-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 270px;
+    margin-bottom: 16px;
+  }
+
+  .mini__box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 280px;
+  }
+
+  .marketing__img {
+    width: 280px;
+    height: 250px;
+  }
+
+  .marketing__second-box {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .marketing__second-img {
+    width: 280px;
+    height: 250px;
+  }
+
+  .marketing__second-list {
+    padding: 0;
+    width: 300px;
+  }
+  .marketing__second-items {
+    width: 300px;
+  }
+
+  .marketing__second-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 215px;
+  }
+
+  .marketing__second-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 270px;
+    margin-bottom: 16px;
+  }
+
+  .marketing__second-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 280px;
+  }
+
+  .marketing__section-icon {
+    margin-right: 10px;
+  }
+
+  .marketing__section-text {
+    width: 250px;
+  }
+
+  .marketing__last-mini-box-list {
+    padding: 0;
+  }
+
+  .marketing__last-box-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 215px;
+  }
+
+  .marketing__last-box-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 270px;
+    margin-bottom: 16px;
+  }
+
+  .marketing__last-box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 280px;
+  }
+
+  .marketing__last-img {
+    width: 280px;
+    height: 250px;
+  }
+} 
